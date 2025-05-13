@@ -6,7 +6,7 @@ function login() {
     var name = email.split('@')[0];
     alert("Καλώς ήρθες, " + name + "!");
     // Πρόσβαση στη σελίδα
-    window.location.href = "http://127.0.0.1:3000/before.html"; // Αντικαταστήστε το "welcome.html" με τη σελίδα προσβασης
+    window.location.href = "before.html"; // Αντικαταστήστε το "welcome.html" με τη σελίδα προσβασης
   } else {
     alert("Άκυρα στοιχεία σύνδεσης. Παρακαλούμε δοκιμάστε ξανά.");
   }
